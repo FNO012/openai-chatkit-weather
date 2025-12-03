@@ -7,15 +7,20 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
-    icon: "circle-question",
+    label: "What's the weather in Paris?",
+    prompt: "What's the weather in Paris?",
+    icon: "globe",
+  },
+  {
+    label: "Show me the weather in London.",
+    prompt: "Show me the weather in London.",
+    icon: "globe",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Type the city...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Ask about the weather.";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
